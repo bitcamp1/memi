@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+a {color:#666; text-decoration:none;}
+a:hover	{color:#333; text-decoration:none;}
+p,ul,li,ol,h2,dl,dd	{margin:0; padding:0; list-style:none;}  /* #fafafa */
+#gnb {width:100%; background:gray;border-top:1px solid #d2d2d2; border-bottom:1px solid #d2d2d2;*zoom:1; /* background:url(${img}/gnb.png) no-repeat left top; */}
+#gnb:after {display:block; clear:both; content:""}
+#gnb li	{width:130px; padding:10px 5px; border-left:1px dashed #d2d2d2; display:block; float:left;text-align:center ; position:relative}
+#gnb li:first-child {border:0}
+#gnb a.menu1,
+#gnb a.menu2,
+#gnb a.menu3{width:136px; height:45px; display:block; float:left; overflow:hidden; text-indent:-999px; }/*  background:url(${img}/gnb.png) no-repeat; */
+#gnb a.menu1{background-position:left top;}
+#gnb a.menu2 {background-position:-136px top;}
+#gnb a.menu3 {background-position:-272px top;}
+#gnb a.menu1:hover {background-position:left -46px;}
+#gnb a.menu2:hover {background-position:-136px -46px;}
+#gnb a.menu3:hover {background-position:-272px -46px;}
+#gnb dl	{border:1px solid #ccc; border-top:0; display:none; background:#fff; overflow:hidden; position:absolute; top:39px; left:-1px; width:100%}
+#gnb dl	dd a {display:block;padding:5px 5px 4px 5px;}
+#gnb dl	dd a:hover	{background:black;}

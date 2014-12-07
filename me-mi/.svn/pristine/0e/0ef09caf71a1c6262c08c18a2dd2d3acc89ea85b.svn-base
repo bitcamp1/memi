@@ -1,0 +1,6 @@
+@CHARSET "UTF-8";
+.bg_gray{background-color: #ddd;}
+.bg_yellow{background-color: yellow;}
+.bd_red{border: 1px solid red;}
+.bd_black{border:1px solid #050505;}
+

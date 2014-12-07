@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+
+/*[1] 포인터*/
+.pointer{cursor:pointer;}
+
+/*[2] 그림자 효과*/
+/*사이트 내에서 그림자 효과를 줄 때는 주고 싶은 요소에 boxOuterShadow 클래스 요소를 추가*/
+.boxOuterShadow {
+	-moz-box-shadow   : 0px 3px 5px 1px #ccc;
+	-webkit-box-shadow: 0px 3px 5px 1px #ccc;
+	box-shadow        : 0px 3px 5px 1px #ccc;
+}
+
+.bottomBorderShadow {
+	*-moz-box-shadow   : 0px 3px 5px 1px #808080;
+	*-webkit-box-shadow: 0px 3px 5px 1px #808080;
+	*box-shadow        : 0px 3px 5px 1px #808080;
+	
+	-moz-box-shadow   : 0px 3px 5px 1px #808080;
+	-webkit-box-shadow: 0px 3px 5px 1px #808080;
+	box-shadow        : 0px 3px 5px 1px #808080;
+}
+
+/*[3] 메뉴에 마우스 오버했을 때 반전되는 효과.*/
+/*js에서 reverse클래스를 추가한다*/
+.reverse {
+	*border : 1px red solid;
+	background: #0995E0;
+	color     : #FFF;
+}
+
+.reverse a {
+	*border : 1px red solid;
+	background: #0995E0;
+	color     : #000;
+}
+
+.reverse a:hover{
+	*border : 1px red solid;
+	background: #0995E0;
+	color     : #FFF;
+}
+
+/* [4] 긴 글을 잘라줌 */
+.ellipsis {
+	text-overflow: ellipsis;
+	white-space  : nowrap;
+	overflow     : hidden;
+}
+.b_red{border : 1px solid red;}
